@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+
+    background-color: rgb(255, 243, 226);
+    width: 100%;
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ .col-sm-8 img{
+  width: 100px; 
+ }
+
+
+ header ul { 
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+header ul li {
+  margin: 10px;
+
+ }
+
+ .a{
+  text-decoration: none;
+ }
+
+ .col-md-12 h1 { 
+  font-size: 45px;
+  text-align: center;
+  font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.col-md-12 {
+  background-color: rgb(255, 255, 255);
+}
+
+.col-md-12 p{ 
+  font-size: 25px;
+  font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 25px 20px 25px;
+    text-align: center; 
+}
+
+.col-md-12 img {
+  border-radius: 50%;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+
+ img { 
+    width: 250px;
+ }
+ 
+ .row { 
+  width: 100%;
+  margin: 10px 0 10px 0;
+  
+ }
+
+ .col-md-6 {
+  background-color: rgb(226, 207, 185);
+ }
+
+
+ .col-md-6 img {
+   border-radius: 50%;
+   margin: 10px;
+   
+   }
+
+   .col-md-6 h1 { 
+     text-align: center;
+     align-items: center;
+     font-family: "Allan", serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+
+.col-md-6 p{ 
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 10px 50px;
+  text-align: center;
+ 
+}
+
+#ediciones {
+  background-color: rgb(255, 255, 255);
+}
+
+.col-md-4 h1{
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.col-md-4 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+
+ #ubicacion iframe {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+ }
